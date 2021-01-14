@@ -16,6 +16,9 @@ module.exports = (sequelize, Sequelize) => {
 
       monthlyPayed: {
         type: Sequelize.BOOLEAN
+      },
+      photo: {
+        type: Sequelize.BLOB('long')
       }
     });
   
